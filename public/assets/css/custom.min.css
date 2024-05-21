@@ -1,0 +1,23 @@
+   .loader {
+            border: 8px solid #fff;
+            border-top: 8px solid #405189;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            animation: spin 2s linear infinite;
+            position: fixed;
+            top: 40%;
+            left: 55%;
+            transform: translate(-50%, -50%);
+            z-index: 9999;
+        }
+
+      
+		@keyframes spin {
+    0% { transform: rotate(0deg); border-top-color: #571845; }
+    25% { border-top-color: #ffc300; }
+    50% { border-top-color: #c70039; }
+    75% { border-top-color: #ff5733; }
+    100% { transform: rotate(360deg); border-top-color: #405189; }
+}
+	
