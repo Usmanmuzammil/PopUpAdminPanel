@@ -12,6 +12,7 @@ trait ManagesCurrencyTransformers
         'ar' => Transformer\ArabicCurrencyTransformer::class,
         'al' => Transformer\AlbanianCurrencyTransformer::class,
         'az' => Transformer\AzerbaijaniCurrencyTransformer::class,
+        'bg' => Transformer\BulgarianCurrencyTransformer::class,
         'de' => Transformer\GermanCurrencyTransformer::class,
         'dk' => Transformer\DanishCurrencyTransformer::class,
         'en' => Transformer\EnglishCurrencyTransformer::class,
@@ -26,10 +27,12 @@ trait ManagesCurrencyTransformers
         'ro' => Transformer\RomanianCurrencyTransformer::class,
         'ru' => Transformer\RussianCurrencyTransformer::class,
         'sk' => Transformer\SlovakCurrencyTransformer::class,
+        'sr' => Transformer\SerbianCurrencyTransformer::class,
         'tk' => Transformer\TurkmenCurrencyTransformer::class,
         'tr' => Transformer\TurkishCurrencyTransformer::class,
         'ua' => Transformer\UkrainianCurrencyTransformer::class,
-        'yo' => Transformer\YorubaCurrencyTransformer::class
+        'uz' => Transformer\UzbekCurrencyTransformer::class,
+        'yo' => Transformer\YorubaCurrencyTransformer::class,
     ];
 
     /**

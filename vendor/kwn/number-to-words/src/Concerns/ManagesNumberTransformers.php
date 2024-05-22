@@ -35,12 +35,14 @@ trait ManagesNumberTransformers
         'pl' => Transformer\PolishNumberTransformer::class,
         'pt_BR' => Transformer\PortugueseBrazilianNumberTransformer::class,
         'ro' => Transformer\RomanianNumberTransformer::class,
+        'sr' => Transformer\SerbianNumberTransformer::class,
         'ru' => Transformer\RussianNumberTransformer::class,
         'sk' => Transformer\SlovakNumberTransformer::class,
         'sv' => Transformer\SwedishNumberTransformer::class,
         'tk' => Transformer\TurkmenNumberTransformer::class,
         'tr' => Transformer\TurkishNumberTransformer::class,
         'ua' => Transformer\UkrainianNumberTransformer::class,
+        'uz' => Transformer\UzbekNumberTransformer::class,
         'yo' => Transformer\YorubaNumberTransformer::class,
     ];
 
