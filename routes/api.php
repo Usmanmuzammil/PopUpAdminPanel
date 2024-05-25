@@ -22,9 +22,9 @@ Route::POST('login',[ApiLoginController::class,'login']);
 
 Route::middleware('auth:sanctum')->group(function () {
     Route::POST('update/fcm',[ApiLoginController::class,'update_token']);
+    Route::get('/get_category',[ProductController::class, 'category']); 
     Route::POST('/getProductByCategory',[ProductController::class, 'getProductsByCategory']);
-    Route::get('/get_category',[ProductController::class, 'category']);
-
+    Route::get('/getProductDetails/{id}' , [ProductController::class ,'getProductDetails']);
 
 });
 

@@ -11,7 +11,8 @@ class attribute extends Model
     use HasFactory,SoftDeletes;
     protected $fillable=[
         'attribute_name',
-        'status'
+        'status',
+        'price'
     ] ;
     public function getItemAttr(){
         return $this->hasMany(item_attribute::class,'attribute_id');
